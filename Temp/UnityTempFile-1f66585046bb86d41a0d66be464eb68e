@@ -2,10 +2,10 @@
 -target:library
 -nowarn:0169
 -out:Temp/Assembly-CSharp.dll
--r:D:/unity/Data/Managed/UnityEngine.dll
+-r:D:/software/U3D/Editor/Data/Managed/UnityEngine.dll
 -r:Assets/Scripts/Model.dll
 -r:Assets/Scripts/Service.dll
--r:D:/unity/Data/Managed/UnityEditor.dll
+-r:D:/software/U3D/Editor/Data/Managed/UnityEditor.dll
 -define:UNITY_STANDALONE_WIN
 -define:ENABLE_MICROPHONE
 -define:ENABLE_TEXTUREID_MAP
@@ -43,5 +43,6 @@ Assets/Scripts/AICharactors.cs
 Assets/Scripts/Charactors.cs
 Assets/Scripts/GameManager.cs
 Assets/Scripts/PlayerCharators.cs
--r:D:/unity/Data/Mono\lib/mono/unity\System.Runtime.Serialization.dll
--r:D:/unity/Data/Mono\lib/mono/unity\System.Xml.Linq.dll
+Assets/Scripts/ReduceLife.cs
+-r:D:/software/U3D/Editor/Data/Mono\lib/mono/unity\System.Runtime.Serialization.dll
+-r:D:/software/U3D/Editor/Data/Mono\lib/mono/unity\System.Xml.Linq.dll
