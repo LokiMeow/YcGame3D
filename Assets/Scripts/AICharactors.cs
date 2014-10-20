@@ -6,6 +6,8 @@ using Model;
 public class AICharactors : Charactors {
 public override void Init()
 {
+
+		charactor.Name="AI";
 		charactor.HP = 100;
 
 		weapon.AttackType = AttackType.远程;

@@ -10,7 +10,6 @@ public abstract class Charactors : MonoBehaviour {
 	public Material m_material;
 	//血槽
 	protected int hp=100;
-	public Vector3 position;
 	//绳命
 	//protected int life=100;
 	private Transform redLife;
@@ -40,6 +39,7 @@ public abstract class Charactors : MonoBehaviour {
 		Init();
 		//获得初始血量(最大值)
 		hp=charactor.HP;
+
 
 		if(m_transform.name=="Player")
 			charactor.TargetList.Add(GameObject.FindGameObjectWithTag("AI").GetComponent<AICharactors>().charactor);

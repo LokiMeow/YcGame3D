@@ -11,6 +11,7 @@ public class PlayerCharators : Charactors
 		/// </summary>
 		public override void Init ()
 		{
+				charactor.Name="Player";
 				charactor.HP = 100;
 				charactor.Crit = 2500;
 				charactor.Dodge = 2500;
